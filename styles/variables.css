@@ -11,10 +11,11 @@
   --text-color: #f1b2ce;
   --decorated-text-color: #000028;
   --big-title-color: #db00ff;
-  --bg-image: url(../images/cover-image-dark.png);
+  --bg-image: none;
+  --shadow-color: #ff0070;
 
   /* Шрифты */
-  --main-font: 'IBM Plex mono', 'Courier New', monospace;
+  --main-font: "IBM Plex mono", "Courier New", monospace;
   --main-font-size: 18px;
   --main-line-height: 1.3;
 
@@ -25,7 +26,7 @@
   --cards-gap: 20px;
   --card-title-gap: 10px;
   --big-title-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  --big-title-shadow: 4px 4px 0 var(--accent-color, #ff0070);
+  --big-title-shadow: 4px 4px 0 var(--shadow-color, #ff0070);
 
   /* Декоративные уголки */
   --corner-size: 25px;

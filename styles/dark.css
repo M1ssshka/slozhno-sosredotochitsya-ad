@@ -15,7 +15,8 @@
   --text-color: #f1b2ce;
   --decorated-text-color: #000028;
   --big-title-color: #db00ff;
-  --bg-image: url(../images/cover-image-dark.png);
+  --bg-image: none;
+  --shadow-color: #ff0070;
 }
 
 .theme-dark .page {
